@@ -54,17 +54,23 @@ a {
 .top_bar a{
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     display: inline-block;
-    margin: 15px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 23px;
 	color: rgb(51,102,153);
 }
 .top_bar {
-	margin: 25px 65px;
+	margin-top: 15px;
+	margin-right:  55px;
+	margin-left:  35px;
 	text-align: right;
+	font-size: 12px;
 }
 #happy_day {
 	float: left;
 	clear:both;
-	min-width: 150px;
+	min-width: 50px;
+	margin-top: 15px;
 	color: rgb(153,153,153);
 }
 #sign_in {
@@ -74,37 +80,105 @@ a {
 #main {
 	width: 1200px;
 	text-align: center;
-    margin: 50px auto 0px auto;
+    margin: 20px auto 0px auto;
 
 }
 #logo_img {
-	width: 230px;
-	margin-bottom: 30px;
+	width: 160px;
+	margin-bottom: 20px;
 }
 #logo_div {
 	text-align: center;
 }
-#title {
-	font-size: 72px;
+.title {
+	text-align: center;
+	font-size: 55px;
 	font-family: "CrimsonSemibold";
 	font-weight: 500;
+	width: 1000px; 
+	margin-left: auto;
+	margin-right: auto;
 }
-#title2 {
-	margin-top: 30px;
-	font-size: 28px;
+.titleB {
+	text-align: center;
+	font-size: 50px;
+	font-family: "CrimsonSemibold";
+	font-weight: 500;
+	width: 930px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+.titleB a {
+	text-decoration: underline;
+	color: rgb(51,102,153);
+}
+.title2 {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 21px;
 	font-weight: 300;
 	font-family: "CrimsonSemibold";
-	margin-bottom: 20px;
 }
+.title3 {
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: "CrimsonSemibold";
+}
+#all_titles{
+	min-height: 180px;
+}
+
 #three_buttons{
 	width: auto;
 	text-align: center;
 }
-#three_buttons img {
-	width: 250px;
-	margin: 22px;
+#three_buttons * {
+	display: inline-block;
 }
+#three_buttons div {
+	position:relative;
+}
+#three_buttons .big_buttons {
+	width: 180px;
+	margin-left: 17px;
+	margin-right: 17px;
+	margin-bottom: 17px;
+}
+
+
+#left_arrow {
+	width: 60px;
+	position: absolute;
+	top: -32px;
+	left: 155px;
+}
+#middle_arrow {
+	width: 60px;
+	position: absolute;
+	top: -32px;
+	left: 155px;
+}
+
+#right_arrow {
+	width: 60px;
+	position: absolute;
+	top: -32px;
+	left: -10px;
+}
+
 #stars {
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#stars img {
+
+	height: 23px;
 	width: auto;
-	margin-top: 25px;
 }

@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>37signals</title>
 		<link type="text/css" rel="stylesheet" href="main.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="application.js"></script>
   </head>
   <body>
   	<div class='top_bar'> 
@@ -18,16 +20,55 @@
       <div id='logo_div'>
         <img id='logo_img' src="images/logo-37s-large.png">
       </div>
-      <div id='title'>
-        Making collaboration productive and enjoyable for people every day.
-      </div>
-      <div id='title2'>
+      <div id = 'all_titles'>
+      <div id = 'main_titles'>
+        <div class='title'>
+          Making collaboration productive and enjoyable for people every day.
+        </div>
+        <div class='title2'>
           Frustration-free web-based apps for collaboration, sharing information, and making decisions.
+        </div>
+      </div>
+      <div id = 'left_titles'>
+        <div class='titleB'>
+          <a>Basecamp</a> is the project management tool you wish you had on your last project.
+        </div>
+        <div class='title3'>
+          Are you still managing projects with email? Are you still using Excel for you to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with you team and clients the modern way.
+        </div>
+      </div>
+
+      <div id = 'middle_titles'>
+        <div class='titleB'>
+          <a>Highrise</a> remembers the important things about people you’d normally forget
+        </div>
+        <div class='title3'>
+          Keep a permanent record of people you do business with.  Know who you talked to, when you talked to them, what was said, and when to follow up next.  Over 20,000,000 contacts are tracked using Highrise
+        </div>
+      </div>
+
+      <div id = 'right_titles'>
+        <div class='titleB'>
+          From near or far, <a>Campfire</a> helps teams work together over the web in real-time
+        </div>
+        <div class='title3'>
+          Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room.  It’s game changing.  We couldn’t run our own business without Campfire. 
+        </div>
+      </div>
       </div>
       <div id='three_buttons'>
-        <img src="images/left_button.png">
-        <img src="images/mid_button.png">
-        <img src="images/right_button.png">
+        <div id = 'left_button'>
+          <img class = "big_buttons" src="images/left_button.png">
+          <img class = "arrow" id = "left_arrow" src="images/arrow-left.png">
+        </div>
+        <div id = 'middle_button'>
+          <img class = "big_buttons" src="images/mid_button.png">
+          <img class = "arrow" id = "middle_arrow" src="images/arrow-left.png">
+        </div>
+        <div id = 'right_button'>
+          <img class = "big_buttons" src="images/right_button.png">
+          <img class = "arrow" id = "right_arrow" src="images/arrow-right.png">
+        </div>
       </div>
       <div id='stars'>
         <img src="images/stars.png">
